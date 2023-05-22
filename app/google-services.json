@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "459362897533",
+    "project_id": "healthy-and-food-clean",
+    "storage_bucket": "healthy-and-food-clean.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459362897533:android:1f1c7dfa17d5e9c1e4eb14",
+        "android_client_info": {
+          "package_name": "com.example.healthyandfoodclean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459362897533-rej2ncsh75nvh866cf7page3cafap3vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAssvsPljcwi70NQZo0zu4Q6WvLC4UIgII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459362897533-rej2ncsh75nvh866cf7page3cafap3vk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

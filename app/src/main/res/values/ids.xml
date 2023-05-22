@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="trackingFragment" type="id" />
+    <item name="flFragment" type="id" />
+    <item name="rootView" type="id" />
+    <item name="webView" type="id" />
+    <item name="mealListView" type="id" />
+    <item name="randomButton" type="id" />
+    <item name="imageHeader" type="id" />
+    <item name="textHeader" type="id" />
+    <item name="LogOut" type="id" />
+</resources>

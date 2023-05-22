@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue">#7fffd4</color>
+    <color name="lavender">#8692f7</color>
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorSecondary">#1845E6</color>
+    <color name="colorSecondaryDark">#4167B2</color>
+    <color name="colorSecondaryLight">#6A91DE</color>
+    <color name="colorSecondaryLighter">#ABBDEC</color>
+    <color name="colorWhite">#F7F9F8</color>
+    <color name="colorBlack">#090909</color>
+    <color name="colorSkyBlue">#A0A5F4</color>
+    <color name="grey">#A5A3A3</color>
+    <color name="red">#D80101</color>
+
+    <color name="md_blue_50">#E3F2FD</color>
+    <color name="md_blue_100">#BBDEFB</color>
+    <color name="md_blue_200">#90CAF9</color>
+    <color name="md_blue_300">#64B5F6</color>
+    <color name="md_blue_400">#42A5F5</color>
+    <color name="md_blue_500">#2196F3</color>
+    <color name="md_blue_700">#1976D2</color>
+    <color name="md_blue_800">#1565C0</color>
+    <color name="md_blue_900">#0D47A1</color>
+    <color name="md_blue_A100">#82B1FF</color>
+    <color name="md_blue_A200">#448AFF</color>
+    <color name="md_blue_A400">#2979FF</color>
+    <color name="md_blue_A700">#2962FF</color>
+    <color name="colorAccent">#FFE600</color>
+    <color name="errorColor">#D50000</color>
+
+    <color name="background">#FFFFFFFF</color>
+    <color name="text_color">#FF000000</color>
+    <color name="btn_color">#cf2633</color>
+    <color name="btn_txt_color">#FFFFFFFF</color>
+
+    <color name="yellow">#FF9A00</color>
+    <color name="brown">#433232</color>
+    <color name="transparent">#00000000</color>
+    <color name="pink">#F6DEDE</color>
+    <color name="youtube">#C64141</color>
+    <color name="gray">#f5f5f5</color>
+    <color name="darkGray">#3A3939</color>
+    <color name="hintTextColor">#787878</color>
+
+
+
+</resources>

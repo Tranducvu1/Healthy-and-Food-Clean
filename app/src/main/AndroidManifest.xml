@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_background"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthyAndFoodClean"
+        tools:targetApi="31">
+        <activity
+            android:name=".fragment.EatClean2"
+            android:exported="false" />
+        <activity
+            android:name=".DrinkWaterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EatClean"
+            android:exported="false"
+            android:theme="@style/Theme.HealthyAndFoodClean.NoActionBar" />
+        <activity
+            android:name=".admin.DeleteUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.EditUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.ListenerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HealthyAndFoodClean.NoActionBar" />
+        <activity
+            android:name=".fragment.ChatGPTActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".fragment.AboutActivity"
+            android:exported="false"
+            android:label="About Us" />
+        <activity
+            android:name=".fragment.SettingFragment"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".EatCleanActivity"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".RunningActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".TrirdActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".TrirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExcerciseActivitty"
+            android:exported="false" />
+        <activity
+            android:name=".HealthyArticleDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HealthyArticlesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoadingDialog"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <service
+            android:name=".services.TrackingService"
+            android:foregroundServiceType="location" />
+    </application>
+
+</manifest>

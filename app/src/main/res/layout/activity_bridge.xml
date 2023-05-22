@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="fill_parent"
+                android:layout_height="285dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/exersice_8"
+                />
+
+            <Button
+                android:id="@+id/time"
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:backgroundTint="@color/colorSecondaryLight"
+                android:padding="35dp"
+                android:text="01:00"
+                android:textColor="@color/red"
+                android:textSize="28dp" />
+
+            <Button
+                android:id="@+id/starttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#E4700B"
+                android:gravity="center"
+                android:text="Start" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
